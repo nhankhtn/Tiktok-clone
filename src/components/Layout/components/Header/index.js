@@ -28,74 +28,15 @@ import AccountItem from '~/components/AccountItem';
 import Menu from '~/components/Popper/Menu';
 
 const cx = classNames.bind(styles);
-const MENU_ITEMS = [
-    {
-        icon: <FontAwesomeIcon icon={faEarthAsia} />,
-        title: 'English',
-        children: {
-            title: 'Language',
-            data: [
-                {
-                    type: 'language',
-                    code: 'en',
-                    title: 'English',
-                },
-                {
-                    type: 'language',
-                    code: 'vi',
-                    title: 'Vietnamese',
-                },
-            ],
-        },
-    },
-    {
-        icon: <FontAwesomeIcon icon={faCircleQuestion} />,
-        title: 'Feedback and help',
-        to: '/feedback',
-    },
-    {
-        icon: <FontAwesomeIcon icon={faKeyboard} />,
-        title: 'Keyboard shortcuts',
-    },
-];
 
 function Header() {
     const [searchResult, setSearchResult] = useState([]);
-    const currentUser = true;
 
     useEffect(() => {
         setTimeout(() => {
             setSearchResult([]);
         }, 0);
     }, []);
-
-    //Handle logic
-    const handleMenuChange = (menuItem) => {};
-
-    const userMenu = [
-        {
-            icon: <FontAwesomeIcon icon={faUser} />,
-            title: 'View profile',
-            to: '/@hoaa',
-        },
-        {
-            icon: <FontAwesomeIcon icon={faCoins} />,
-            title: 'Get coins',
-            to: '/coin',
-        },
-        {
-            icon: <FontAwesomeIcon icon={faGear} />,
-            title: 'Settings',
-            to: '/settings',
-        },
-        ...MENU_ITEMS,
-        {
-            icon: <FontAwesomeIcon icon={faSignOut} />,
-            title: 'Log out',
-            to: '/logout',
-            separate: true,
-        },
-    ];
 
     return (
         <header className={cx('wrapper')}>
