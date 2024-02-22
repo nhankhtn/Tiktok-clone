@@ -23,7 +23,7 @@ html {
 }
 
 body {
-    font-family: 'Roboto', 'sans-serif';
+    font-family: 'TikTokFont', 'sans-serif';
     font-size: 1.6rem !important;
     line-height: 1.5;
     text-rendering: optimizeLegibility;
@@ -42,6 +42,35 @@ a[href] {
     text-decoration: none;
 }
 
+//Fonts embedded 
+@font-face {
+    font-family: 'TikTokDisplayFont';
+    src: url('~/src/assets/fonts/TikTokDisplayFont-Bold.woff2');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'TikTokDisplayFont';
+    src: url('~/src/assets/fonts/TikTokDisplayFont-Semibold.woff2');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'TikTokFont';
+    src: url('~/src/assets/fonts/TikTokFont-Bold.woff2');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'TikTokFont';
+    src: url('~/src/assets/fonts/TikTokFont-Regular.woff2');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'TikTokFont';
+    src: url('~/src/assets/fonts/TikTokFont-Semibold.woff2');
+    font-weight: 500;
+}
 // Custom tippy tooltip
 body {
     .tippy-box {
