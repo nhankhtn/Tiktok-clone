@@ -1,17 +1,28 @@
 1. Tạo dự án TikTok và đẩy lên Github
-- Terminal: npm i create-react-tiktok
-2. Cài đặt customize-cra để tuỳ chỉnh cấu hình Webpack 
-- Link: customize-cra github 
-3. Cài đặt babel plugin module resolver: giúp đơn giản việc import 
-- Link: bebel plugin module resolver githubu
+
+-   Terminal: npm i create-react-tiktok
+
+2. Cài đặt customize-cra để tuỳ chỉnh cấu hình Webpack
+
+-   Link: customize-cra github
+
+3. Cài đặt babel plugin module resolver: giúp đơn giản việc import
+
+-   Link: bebel plugin module resolver githubu
+
 4. Cấu hình Prettier
-- Link: prettier google
+
+-   Link: prettier google
+
 5. Cấu hình CSS, SASS
-- Terminal: npm i -D sass
+
+-   Terminal: npm i -D sass
+
 6. Cấu hình Router và cơ chế tải Layout
 
-7. Dựng khung DefaultLayout 
+7. Dựng khung DefaultLayout
 
-8. Xây dựng UI phần Header 
+8. Xây dựng UI phần Header
 
-- Cài thư viện tippy: npm i @tippyjs/react 
+-   Cài thư viện tippy: npm i @tippyjs/react
+-   Cài thư viên axios: để dễ dàng gọi API
