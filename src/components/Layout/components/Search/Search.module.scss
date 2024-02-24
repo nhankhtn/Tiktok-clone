@@ -24,6 +24,7 @@ $search-button-width: 52px;
         font-size: 1.6rem;
         caret-color: var(--primary); //Con trỏ khi nhập vào input
         background-color: transparent;
+        font-family: var(--font-family);
     }
 
     input:not(:placeholder-shown) ~ .search-btn {
