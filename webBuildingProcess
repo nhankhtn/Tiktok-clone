@@ -26,3 +26,4 @@
 
 -   Cài thư viện tippy: npm i @tippyjs/react
 -   Cài thư viên axios: để dễ dàng gọi API
+-   Cài thư viện propType để validate kiểu dữ liếu
