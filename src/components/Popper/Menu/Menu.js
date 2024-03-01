@@ -49,7 +49,7 @@ function Menu({ children, items = [], hideOnClick = false, onChange = defaultFn 
     );
 
     //Reset to first page
-    const handleResetMenu = () => setHistory((prev) => prev.slice(0, 1));
+    const handleReset = () => setHistory((prev) => prev.slice(0, 1));
     return (
         <Tippy
             interactive
@@ -58,7 +58,7 @@ function Menu({ children, items = [], hideOnClick = false, onChange = defaultFn 
             hideOnClick={hideOnClick}
             placement="bottom-end"
             render={renderResult}
-            onHide={handleResetMenu}
+            onHide={handleReset}
         >
             {children}
         </Tippy>
