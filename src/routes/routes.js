@@ -9,6 +9,7 @@ import Profile from '~/pages/Profile';
 import Upload from '~/pages/Upload';
 import Search from '~/pages/Search';
 import Live from '~/pages/Live';
+import Friend from '~/pages/Friend';
 
 const publicRoutes = [
     {
@@ -22,6 +23,10 @@ const publicRoutes = [
     {
         path: config.routes.live,
         component: Live,
+    },
+    {
+        path: config.routes.friend,
+        component: Friend,
     },
     {
         path: config.routes.profile,

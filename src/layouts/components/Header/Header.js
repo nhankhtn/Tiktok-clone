@@ -134,7 +134,7 @@ function Header() {
                     <Menu items={currentUser ? userMenu : MENU_ITEMS} onChange={handleMenuChange}>
                         {currentUser ? (
                             <Image
-                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf9Pxt0hKUL4UKDY5fFDJKKrLA8NUyD6eVjA&usqp=CAU"
+                                src={images.avatar}
                                 className={cx('user-avatar')}
                                 alt="Nguyen Van A"
                                 fallback="https://yt3.ggpht.com/yti/AGOGRCrhYIWv8fYC5Y-nOLubYQl8sd1b-l41CaGjbPKp9Q=s88-c-k-c0x00ffffff-no-rj"

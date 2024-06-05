@@ -68,3 +68,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# My note
+
+## Video component
+
+-   Do việc update liên tục progress của video tag nên tôi đã tách nó thành component con để xử lí,
+    nếu trong tương lai có cách khắc phục thì xử lí nhé

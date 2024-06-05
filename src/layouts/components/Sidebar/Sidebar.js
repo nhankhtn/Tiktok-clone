@@ -3,14 +3,18 @@ import styles from './Sidebar.module.scss';
 import config from '~/config';
 import Menu, { MenuItem } from './Menu';
 import {
+    ExploreActiveIcon,
+    ExploreIcon,
     FollowingActiveIcon,
     FollowingIcon,
+    FriendActiveIcon,
+    FriendIcon,
     HomeActiveIcon,
     HomeIcon,
     LiveActiveIcon,
     LiveIcon,
 } from '~/components/Icons';
-import SuggestedAccounts from '../SuggestedAccount/SuggestedAccounts';
+import SuggestedAccounts from '../../../components/SuggestedAccount/SuggestedAccounts';
 
 const cx = classNames.bind(styles);
 
@@ -25,6 +29,8 @@ function Sidebar() {
                     icon={<FollowingIcon />}
                     activeIcon={<FollowingActiveIcon />}
                 />
+                <MenuItem title="Friend" to={config.routes.friend} icon={<FriendIcon />} activeIcon={<FriendActiveIcon />} />
+                <MenuItem title="Explore" to={config.routes.explore} icon={<ExploreIcon />} activeIcon={<ExploreActiveIcon />} />
                 <MenuItem title="LIVE" to={config.routes.live} icon={<LiveIcon />} activeIcon={<LiveActiveIcon />} />
             </Menu>
 

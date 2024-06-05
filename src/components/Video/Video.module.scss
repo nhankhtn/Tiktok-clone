@@ -1,0 +1,161 @@
+.wrapper {
+    display: flex;
+    width: 430px;
+    height: 640px;
+    margin: 32px auto;
+}
+
+.video-container {
+    position: relative;
+    height: 100%;
+    width: 360px;
+    // border-radius: 16px;
+    margin-right: 16px;
+    background-color: #000;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    &::-webkit-media-controls {
+        display: none;
+    }
+}
+.video-info {
+    position: absolute;
+    // bottom: 48px;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    color: #fff;
+    text-align: left;
+}
+
+.video-title {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.video-description {
+    font-size: 14px;
+}
+
+.wrapper-volume {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.btn-volume {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+    margin-left: 16px;
+}
+
+.volume-slider {
+    // display: none;
+    margin: 10px;
+    width: 60px;
+    height: 2px;
+    background-color: #0e0d0d;
+    color: #fff;
+}
+.wrapper-progress {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 24px;
+    left: 8px;
+    width: 100%;
+    height: 5px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.play-btn {
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.progress-video {
+    width: 308px;
+    height: 3px;
+}
+
+.action {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.follow-icon {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: var(--primary);
+    color: var(--white);
+    position: absolute;
+    top: 32px;
+}
+.icon-plus {
+    font-size: 16px;
+}
+
+.wrapper-icon {
+    width: 48px;
+    height: 83px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 4px 0;
+    background-color: transparent;
+}
+
+.icon-action {
+    width: 100%;
+    height: 48px;
+    margin-bottom: 8px;
+    border-radius: 50%;
+    background-color: var(--gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    font-size: 20px;
+}
