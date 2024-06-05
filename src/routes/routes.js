@@ -10,6 +10,8 @@ import Upload from '~/pages/Upload';
 import Search from '~/pages/Search';
 import Live from '~/pages/Live';
 import Friend from '~/pages/Friend';
+import Video from '~/pages/Video';
+import VideoLayout from '~/layouts/VideoLayout';
 
 const publicRoutes = [
     {
@@ -42,6 +44,11 @@ const publicRoutes = [
         component: Search,
         layout: null,
     },
+    {
+        path: config.routes.video,
+        component: Video,
+        layout: VideoLayout
+    }
 ];
 
 // Những router cần đăng nhập để xem

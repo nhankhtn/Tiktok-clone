@@ -1,7 +1,7 @@
 const images = {
     logo: require('~/assets/images/logo.svg').default,
     noImage: require('~/assets/images/no-image.png'),
-    avatar: require('~/assets/images/avatar.jpg'),
+    avatar: require('~/assets/images/min.jpg'),
 };
 
 export default images;
