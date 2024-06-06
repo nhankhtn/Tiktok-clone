@@ -16,7 +16,7 @@ function AccountPreview() {
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf9Pxt0hKUL4UKDY5fFDJKKrLA8NUyD6eVjA&usqp=CAU"
                     alt="https://p16-sign-useast2a.tiktokcdn.com/tos-useast2a-avt-0068-aiso/09c313067497ecc6e859cf77a802affb~c5_100x100.jpeg?lk3s=a5d48078&x-expires=1709478000&x-signature=Vn7NOqxsOc7BQFtTe%2Bvc0HGWBo4%3D"
                 />
-                <Button className={cx('follow-btn')} primary>
+                <Button className={cx('follow-btn')} outline >
                     Follow
                 </Button>
             </div>

@@ -1,6 +1,7 @@
 .wrapper {
     display: flex;
     flex-direction: row;
+    margin-bottom: 16px;
 
     &:hover .action .more-btn {
         visibility: visible !important;
@@ -19,9 +20,16 @@
 }
 
 .username {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
 }
 
 .content {
+    font-size: 16px;
+    line-height: 21px;
+    white-space: pre-line;
+    word-break: break-word;
 }
 
 .sub {
@@ -60,4 +68,30 @@
 .likes {
     font-size: 14px;
     line-height: 21px;
+}
+
+.more-option {
+    width: 160px;
+    height: 44px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 12px;
+}
+.more-item {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: transparent;
+
+    &:hover {
+        background-color: rgba(22, 24, 35, 0.05);
+    }
+
+    & span {
+        margin-right: 24px;
+    }
 }

@@ -73,5 +73,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ## Video component
 
+# Bug
+
 -   Do việc update liên tục progress của video tag nên tôi đã tách nó thành component con để xử lí,
     nếu trong tương lai có cách khắc phục thì xử lí nhé
+-   Khi ấn vào button email thì nó chưa mở ra đươc app
+-   Tippy trong trang video bi lỗi khi di chuột ra ngoài nó không ẩn được
